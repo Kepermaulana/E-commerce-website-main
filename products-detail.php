@@ -36,8 +36,7 @@ if (!isset($_SESSION['username'])) {
                 <ul id="menuitems">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="products.php">Product</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <!-- <li><a href="contact.php">Contact</a></li> -->
                     <li><a href="logout.php">Logout</a></li>
                     <!-- <li><a href="account.php">Account</a></li> -->
                 </ul>
@@ -70,8 +69,7 @@ if (!isset($_SESSION['username'])) {
                 <a href="cart.php" class="btn">Add to Cart</a>
                 <br>
                 <h3>Product Details <i class="bi bi-indent"></i></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda nisi provident ducimus
-                    repudiandae quos itaque tempora modi, repellat sapiente!</p>
+                <p>Keyboard Black & White merupakan keyboard Best Seller di toko kami, keyboard ini memliki keawetan yang lama dan nyaman dipakai untuk bekerja</p>
             </div>
         </div>
     </div>

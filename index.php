@@ -24,30 +24,28 @@ if (!isset($_SESSION['username'])) {
 
 <body>
 
-
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index.php"><img src="images/logo.png" alt="" width="125px"></a>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.php"><img src="images/logo.png" alt="" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="menuitems">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="products.php">Product</a></li>
+                            <!-- <li><a href="contact.php">Contact</a></li> -->
+                            <li><a href="logout.php">Logout</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.php"><img src="images/cart.png" alt="" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="">
                 </div>
-                <nav>
-                    <ul id="menuitems">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="products.php">Product</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="logout.php">Logout</a></li>
-                    </ul>
-                </nav>
-                <a href="cart.php"><img src="images/cart.png" alt="" width="30px" height="30px"></a>
-                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="">
-            </div>
             <div class="row">
                 <div class="col-2">
                     <h1>Tingkatkan Perlengkapan <br>Gaming Anda!</h1>
                     <p></p>
-                    <a href="" class="btn">Explore Now &#8594;</a>
+                    <a href="products.php" class="btn">Explore Now &#8594;</a>
                 </div>
                 <div class="col-2">
                     <img src="gaming/image1.png" alt="">
@@ -243,7 +241,7 @@ if (!isset($_SESSION['username'])) {
                 <div class="col-2">
                     <p>Exclusively Available on RedStore</p>
                     <h1>Smart Band 4</h1>
-                    <small>The Mi Smarat Band 4 features a 39.9%larger
+                    <small>The Mi Smart Band 4 features a 39.9%larger
                         (than M1 Band 3) AMOLED color full-touch display with adjustabkle brightness,
                         so everything is clear as can
                     </small>
@@ -259,8 +257,7 @@ if (!isset($_SESSION['username'])) {
             <div class="row">
                 <div class="col-3">
                     <i class="bi bi-quote"></i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem ipsum has been the industry's standard dummy text ever
+                    <p>Develop success from failures. Discouragement and failure are two of the surest stepping stones to success
                     </p>
                     <div class="rating">
                         <i class="bi bi-star-fill"></i>
@@ -274,8 +271,7 @@ if (!isset($_SESSION['username'])) {
                 </div>
                 <div class="col-3">
                     <i class="bi bi-quote"></i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem ipsum has been the industry's standard dummy text ever
+                    <p>Challenges are what make life interesting and overcoming them is what makes life meaningful
                     </p>
                     <div class="rating">
                         <i class="bi bi-star-fill"></i>
@@ -289,8 +285,7 @@ if (!isset($_SESSION['username'])) {
                 </div>
                 <div class="col-3">
                     <i class="bi bi-quote"></i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem ipsum has been the industry's standard dummy text ever
+                    <p>How dare you settle for less when the world has made it so easy for you to be remarkable?
                     </p>
                     <div class="rating">
                         <i class="bi bi-star-fill"></i>
